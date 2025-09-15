@@ -9,16 +9,15 @@
 <body>
     <div class="container">
 
-        <h2>User List Formatter</h2>
+        <h1>User List Formatter</h1>
         <textarea name="user formatter" id="userInput" placeholder="Enter your name and emailss"></textarea>
 
         <div class="btns">
             
-        <button id="formatBtn">Format</button>
-        <button id="sortBtn">Sort</button>
-        <button id="removeBtn">Remove Duplicates</button>
-        <button id="clearBtn">Clear</button>
-        <button id="copyBtn">Copy</button>
+        <button id="formatBtn" onclick="formatList()">Format</button>
+        <button id="sortBtn" onclick="sortList()">Sort</button>
+        <button id="removeBtn" onclick="removeDuplicates()">Remove Duplicates</button>
+        <button id="clearBtn" onclick="clearList()">Clear</button>
         </div>
 
         <ul id="outputList"></ul>
@@ -28,3 +27,4 @@
     <script src="./script.js"></script>
 </body>
 </html>
+

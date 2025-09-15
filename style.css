@@ -2,7 +2,7 @@
 
 body {
  
-    background: #4f4f4f;
+    background: #f0f2f5;
     font-family: Arial, sans-serif;
     align-content: center;
     justify-items: center;
@@ -14,26 +14,51 @@ textarea {
     height: 120px;
     margin-bottom: 10px;
     padding: 10px;
+    background: #b4a9a9;
+    border: 1px slod #ddd;
+    
 }
 
 .btns {
     margin: 5px;
     padding: 8px 15px;
     border: none;
-    background: #7fb6f1;
-    color: white;
+    background:#ffffff;
+    /* color: #00bfa6; */
+    
     cursor: pointer;
     border-radius: 5px;
     width: 96%;
+}
+
+#formatBtn {
+    cursor: pointer;
+    gap: 2px;
+}
+
+#sortBtn {
+    cursor: pointer;
+    gap: 2px;
+}
+
+#removeBtn {
+    cursor: pointer;
+    gap: 2px;
+}
+
+#clearBtn {
+    cursor: pointer;
     gap: 2px;
 }
 
 btns:hover{
-    background:#0056b3;
+    background:#1e90ff;
 }
 
 ul {
-    background: white;
+    background: #ffffff;
     padding: 10px;
+    color: #333333;
     border-radius: 5px;
+   
 }
